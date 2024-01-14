@@ -48,9 +48,17 @@ h1{
     letter-spacing:4px;
     list-style-type:none;
 }
+
+#menu > li{
+margin-bottom:1em;
+}
+
+.active{
+    border-bottom: 1px solid black;
+}
 /*main content*/
 main{
-border: blueviolet;
+border: orange;
     /*Make main element take up any surplus space and push footer down*/
     flex: 1 0 auto;
 }
