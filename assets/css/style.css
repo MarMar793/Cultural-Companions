@@ -28,6 +28,10 @@ header{
     z-index:99;
     width:100%;
     box-shadow: 0 2px 2px grey;
+    display:flex;
+    justify-content:space-between;
+    align-items:baseline;
+
 }
 
 header a {
@@ -66,9 +70,22 @@ nav{
     padding:0 1rem;
     box-shadow: 0 2px 2px black;
     display:none;
+    top:100%;
 
 }
 
+/*nav toggle*/
+#nav-toggle:checked~nav {
+    display:block;
+
+}
+#nav-toggle{
+    display:none;
+}
+
+.nav-toggle-label{
+    font-size:2rem;
+}
 /*main content*/
 main{
 background-color: orange;
