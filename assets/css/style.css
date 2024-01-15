@@ -92,12 +92,20 @@ background-color: orange;
 
     /*Make main element take up any surplus space and push footer down*/
     flex: 1 0 auto;
+    margin-top:47px;
 }
+
 /*footer*/
-footer{
-    background-color: red;
+#social-networks{
+    text-align:center;
+    padding: 20px 0;
+    display:flex;
+    justify-content:space-evenly;
+    list-style-type:none;
+
 }
-/*media query for tablets and larger (768px)*/
+
+/*media query for tablets and larger (768px and up)*/
 @media screen and (min-width:768px){
     /*Header*/
     nav{
@@ -128,19 +136,8 @@ footer{
         /*push main content down to accommodate larger header*/
         margin-top: 79px;
     }
-
-/*footer*/
-#social-networks{
-    text-align:center;
-    padding: 20px 0;
-    display:flex;
-    justify-content:space-evenly;
-    list-style-type:none;
-
 }
 
-
-}
 /* media query for larger screens (laptops/desktops - 992px and up )*/
 @media screen and (min-width:992px) {
 #menu a:hover{
